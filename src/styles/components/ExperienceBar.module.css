@@ -1,6 +1,7 @@
 .experienceBar {
     display: flex;
     align-items: center;
+    margin-bottom: 15px;
 }
 
 .experienceBar span {
@@ -26,4 +27,10 @@ span.currentExperience {
     position: absolute;
     top: 12px;
     transform: translateX(-50%);
+}
+
+@media(max-width: 900px){
+    .experienceBar {
+        margin-bottom: 30px;
+    }
 }
